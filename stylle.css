@@ -70,7 +70,7 @@ header{
 
 
 
-
+/*
 .header-icons i{
     margin-right: 25px;
     font-size: 28px;
@@ -81,7 +81,7 @@ header{
 .header-icons i:hover{
     transform: translateY(-5px);
     color: var(--main-color);
-}
+} */
 
 .home {
     padding-top: 15em;
@@ -122,7 +122,7 @@ header{
     max-width: 500px; /* Define uma largura máxima */
     padding-left: 5em;
 }
-.home-text h1 {
+/* .home-text h1 {
     font-size: 40px;
     line-height: 1.2;
     margin-bottom: 2px; }
@@ -132,9 +132,9 @@ header{
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 10px;
-}
+} */
 
- .home-text h2{
+ /* .home-text h2{
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -145,8 +145,8 @@ header{
     font-size: 13px;
     color:#646372;
     margin-bottom: 10px;
-   }
-.home-img img{
+} */
+/* .home-img img{
     margin-left: 25%;
     position: relative;
     top: 40px;
@@ -154,20 +154,20 @@ header{
 
 .home-title {
     font-size: 4em;
-}
+} */
 
-.btn {
+/* .btn {
     font-size: 1em;
     text-decoration: none;
     background-color: white;
     border: solid 1px;
     border-radius: 25px;
     padding: 0.9em;
-}
-
+} */
+/*
 .home-img {
     margin-right: 30em;
     border-radius: 50px;
-    
-}
- 
+
+} */
+
