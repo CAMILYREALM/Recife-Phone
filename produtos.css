@@ -1,0 +1,254 @@
+body {
+    background-image: linear-gradient(to right,rgb(1, 1, 3),rgb(61, 2, 75));
+    color: var(--tex-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: var(--tex-color);
+    font-size: 32px;
+    margin-right: 5px;
+}
+.navegação{
+    display: flex;
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+.navegação a:hover{
+    color: var(--main-color);
+}
+
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+.home {
+    display: flex;
+    padding-top: 15em;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2fr,1fr);
+    align-items: center;
+    gap: 2rem;
+} */
+
+.home-text {
+    margin-left: 10em;
+}
+.home-title {
+    font-size: 4em;
+}
+
+.btn {
+    font-size: 1em;
+    text-decoration: none;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 25px;
+    padding: 0.9em;
+}
+.home-img {
+    margin-right: 30em;
+    border-radius: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+#menu{
+    font-size: 35px;
+    color: var(--tex-color)
+    z-index; 
+    cursor: pointer;
+}
+:root{
+    --bg-color: var(--bg-color) #712b96;
+    --tex-color: #f4eded;
+    --main-color: #030203;
+    --other-color: #efebf1;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+.home-img2{
+   
+    padding: 10em 0 0 5em;
+    margin-right: 1em;
+    border-radius: 50px;
+}
+.home-img3{
+    padding: 10em 5em 0 5em;
+    margin-right: 1em;
+    border-left: 50px;
+}
+.home-img4{
+    padding: 10em 0 0 5em;
+    margin-right: 1em;
+    border-left: 50px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.produto-compra {
+    display: flex;
+    gap: 3em;
+    background-color: var(--tex-color);
+    color: #030203;
+    padding: 2em;
+    border-radius: 20px;
+    margin: 2em;
+}
+
+.product-price-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+.produto-paragrafo {
+    margin: 2em 0 0 1.2em;
+}
+
+.preco {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 3.1em;
+    align-items: baseline;
+}
+
+.product-price {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.parcela {
+    margin-left: 10em;
+}
+
+.button-hover-background {
+    width: 60%;
+    border-radius: 1em;
+}
+
+.carrinho {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 16px
+}
+
+.normal-section {
+    margin-top: 2em;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.cart-total-container {
+    border-top: 1px solid gray;
+    text-align: end;
+    padding: 6px 16px 0 0;
+    font-size: 18px;
+}
+
+.cart-total-container strong {
+    margin-right: 12px;
+}
+
+
+
+/* 
+.container {
+    margin-top: 7em ;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    padding: 1em;
+    width: 60%;
+    color: #030203;
+}
+
+.container2 {
+    margin-top: 2em;
+}
+
+.produtos-link {
+    display: flex;
+    gap: 1em;
+    color: #030203;
+}
+
+.produtos-titulo {
+    font-size: 1.1em;
+    margin: 0 0 3em 2em;
+}
+
+.produto-paragrafo {
+    margin: 2em;
+    text-align: center;
+}
+
+.produtos-preco {
+    margin-top: 3em;
+}
+
+.produtos-preco-negrito {
+    font-size: 1.7em;
+}
+
+.produto-preco-paragrafo{
+    margin-left: 8em;
+} */

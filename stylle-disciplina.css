@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg-color: var(--bg-color) #712b96;
+    --tex-color: #f4eded;
+    --main-color: #030203;
+    --other-color: #efebf1;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+
+body {
+    background-image: linear-gradient(to right,rgb(1, 1, 3),rgb(61, 2, 75));
+    color: var(--tex-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: var(--tex-color);
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.navegação{
+    display: flex;
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.navegação a:hover{
+    color: var(--main-color);
+}
+
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+
+
+#menu{
+    font-size: 35px;
+    color: var(--tex-color)
+    z-index; 
+    cursor: pointer;
+}
+
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+.informacoes{
+    padding: 1em;
+}
+
+.informacoes__titulo {
+    font-family: var(--fonte-titulos);
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.plano-ensino-container {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.plano-ensino {
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+}
+
+.plano-ensino-item {
+    margin-bottom: 20px;
+    font-family: var(--fonte-textos);
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.sub-list {
+    list-style-type: upper-roman;
+    padding-left: 20px;
+}
+
+.sub-list li {
+    margin-bottom: 5px;
+}
+
+.sub-sub-list {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.sub-sub-list li {
+    margin-bottom: 5px;
+}
+
+.equipe {
+    text-align: center;
+    padding: 1em 5em;
+}
+
+.equipe-titulo {
+    padding: 1em;
+    font-size: 2em;
+}
+
+.equipe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+

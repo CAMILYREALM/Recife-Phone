@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg-color: var(--bg-color) #712b96;
+    --tex-color: #f4eded;
+    --main-color: #030203;
+    --other-color: #efebf1;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+
+body {
+    background-image: linear-gradient(to right,rgb(1, 1, 3),rgb(61, 2, 75));
+    color: var(--tex-color);
+}
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: var(--tex-color);
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.navegação{
+    display: flex;
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.navegação a:hover{
+    color: var(--main-color);
+}
+
+
+
+
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+.home {
+    padding-top: 15em;
+    display: flex;
+    gap: 15em;
+    align-items: center;
+}
+
+.home-botao {
+    background-color: var(--tex-color);
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.home-titulo {
+    font-size: 1.4em;
+}
+
+.home-titulo2 {
+    text-align: center;
+}
+
+.home-desconto {
+    padding-top: 4em;
+}
+
+.home-preco {
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+.home-preco-negrito {
+    font-size: 2.5em;
+}
+
+.text-container {
+    font-size: 22px;
+    max-width: 500px; /* Define uma largura máxima */
+    padding-left: 5em;
+}
+.home-text h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 2px; }
+
+.home-text h4 {
+    color: #646372;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+ .home-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+ }
+
+ .home-text h6{
+    font-size: 13px;
+    color:#646372;
+    margin-bottom: 10px;
+   }
+.home-img img{
+    margin-left: 25%;
+    position: relative;
+    top: 40px;
+ }
+
+.home-title {
+    font-size: 4em;
+}
+
+.btn {
+    font-size: 1em;
+    text-decoration: none;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 25px;
+    padding: 0.9em;
+}
+
+.home-img {
+    margin-right: 30em;
+    border-radius: 50px;
+    
+}
+ 

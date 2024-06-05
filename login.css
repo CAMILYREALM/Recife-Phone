@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right,rgb(1, 1, 3),rgb(61, 2, 75));
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: black;
+    color: rgb(225, 225, 238);
+    margin-bottom: 15px;
+
+}
+
+.entrar input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: black;
+    color: rgb(225, 225, 238);
+}
+.senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: black;
+    color: rgb(225, 225, 238);
+    margin-top: 15px;
+}
+.Entrar input {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: rgb(225, 225, 238);
+}
+.caixa {
+    margin-top: 65px;
+}
+
+   
