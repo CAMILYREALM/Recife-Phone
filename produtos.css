@@ -101,12 +101,8 @@ header{
     text-decoration: none;
     list-style: none;
 }
-#menu{
-    font-size: 35px;
-    color: var(--tex-color)
-    z-index; 
-    cursor: pointer;
-}
+
+
 :root{
     --bg-color: var(--bg-color) #712b96;
     --tex-color: #f4eded;
